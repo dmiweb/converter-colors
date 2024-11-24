@@ -2,6 +2,6 @@
 
 ### Home work on React + TypeScript + Vite
 
-GitHub Page - 
+GitHub Page - https://dmiweb.github.io/converter-colors
 
 [![Build status](https://ci.appveyor.com/api/projects/status/bpl513b3vq5jikv5?svg=true)](https://ci.appveyor.com/project/dmiweb/converter-colors)

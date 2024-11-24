@@ -19,8 +19,15 @@ const ColorForm = () => {
     if (color.length === 7) {
       const colorValid = /^#[0-9A-F]{6}$/i.test(color);
 
-      colorValid ? setHex(color) : null;
-      colorValid ? hexToRgb(color) : setRGB('Ошибка!');
+      if(colorValid) {
+        setHex(color)
+        hexToRgb(color)
+      } else {
+        setRGB('Ошибка!')
+      }
+
+      // colorValid ? setHex(color) : null;
+      // colorValid ? hexToRgb(color) : setRGB('Ошибка!');
     }
   }
   
